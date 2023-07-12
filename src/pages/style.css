@@ -1,0 +1,114 @@
+.presentation{
+    position:absolute;
+    z-Index:1;
+    width: 100%;
+    top:450px
+}
+.presentation p{
+    font-size: 3rem;
+    margin: 1px 0;
+    padding: 0;
+    display: inline-block;
+    white-space: nowrap;
+    overflow-x: hidden;
+    width: 0;
+    font-family: monospace; 
+    font-style: normal;
+    font-weight: bold;
+}
+.typing_one{
+    animation: escribir 3s steps(30) forwards;
+    animation-delay: 1s;
+}
+.typing_two{
+    animation: escribir 3s steps(30) forwards;
+    animation-delay: 3s;
+}
+.typing_tree{
+    animation: escribir 3s steps(30) forwards;
+    animation-delay: 4s;
+}
+@keyframes escribir {
+    from { width: 0 }
+    to { width:100% }
+}
+.about-article{
+    opacity: 0;
+    animation: show-info 1s steps(30) forwards;
+    animation-delay: 1s;
+}
+@keyframes show-info {
+    from { opacity: 0;}
+    to { opacity: 100%; }
+}
+.about-article p{
+    font-size: 1.5rem;
+    padding: 40px;
+}
+.about-article figure{
+    margin: 0;
+    padding: 0;
+}
+.about-article img{
+    margin: 0;
+    padding: 0;
+    border-radius: 100%;
+    overflow: hidden;
+    width: 60vw;
+    height: 60vw;
+    max-width: 300px;
+    max-height: 300px;
+}
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    opacity: 0;
+    animation: show-info 1s steps(30) forwards;
+    animation-delay: 1s;
+}
+.contact img,figure{
+    margin: 0;
+    padding: 0;
+}
+.contact figure{
+    display: inline-block;
+    padding: 50px;
+}
+.contact img{
+    width: 150px;
+    height: 150px;
+}
+@media screen and (min-width: 768px) {
+    .presentation{
+        position:absolute;
+        z-Index:1;
+        width: 100%;
+        top:600px
+    }
+}
+@media screen and (min-width: 1024px) {
+    .presentation{
+        top:35%;
+        right: 25%;
+    }
+    .presentation p{
+        font-size: 4rem;
+    }
+    .about-article p{
+        font-size: 2.5rem;
+    }
+    .about-article img{
+        max-width: 460px;
+        max-height: 460px;
+    }
+}
+@media screen and (min-width: 768px) and (max-height: 480px) {
+    .presentation{
+        top:35%;
+        right: 25%;
+    }
+}
+

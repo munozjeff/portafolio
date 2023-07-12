@@ -1,0 +1,52 @@
+.title_section{
+    width: 100%;
+    padding-left: 30px;
+    box-sizing: border-box;
+    /* margin-top: 50px; */
+    padding-top: 50px;
+}
+.title_section>div{
+    height: 52px;
+    position: relative;
+}
+.title_section h2{
+    font-size: 3.5rem;
+    text-align: left;
+    margin: 0;
+    overflow-y: hidden;
+    position: absolute;
+    bottom: 5px;
+    height: 0;
+    animation: move-to-top .5s linear forwards;
+    animation-delay: .7s;
+}
+@keyframes move-to-top{
+    from{
+        height: 0;
+    }
+    to{
+        height: 80%;
+    }
+}
+.title_section hr{
+    width: 100px;
+    height: 5px;
+    border: none;
+    background-color: rgb(121, 227, 254);
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    animation: move-to-left .2s linear forwards;
+    animation-delay: .5s;
+}
+@keyframes move-to-left{
+    from{
+        left: 100%;
+        opacity: 100%;
+    }
+    to{
+        left: 0;
+        opacity: 100%;
+    }
+}
