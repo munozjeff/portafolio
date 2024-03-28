@@ -1,11 +1,11 @@
 .presentation{
     position:absolute;
     z-Index:1;
-    width: 100%;
+    width: 100vw;
     top:450px
 }
 .presentation p{
-    font-size: 3rem;
+    font-size: 6vw;
     margin: 1px 0;
     padding: 0;
     display: inline-block;

@@ -9,7 +9,7 @@ function Work({title,info,image}){
             {info.map((text,index)=><p key={index} className="work-info">{text}</p>)}
             <div className='laptop-container'>
                 <figure className="laptop">
-                    <img src="/src/assets/laptop.png"></img>
+                    <img src="/assets/laptop.png"></img>
                 </figure>
                 <div className="screen">
                     <figure>

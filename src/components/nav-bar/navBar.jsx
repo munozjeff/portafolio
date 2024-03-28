@@ -12,7 +12,7 @@ function NavBarComponent() {
       <Container>
         {/* <Navbar.Brand href="#home">Navbar</Navbar.Brand> */}
         <figure className='icon-nav-bar'>
-          <img src='/src/assets/prog.png' alt='icon-prog'></img>
+          <img src='/assets/prog.png' alt='icon-prog'></img>
         </figure>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

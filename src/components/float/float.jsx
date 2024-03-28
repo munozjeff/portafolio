@@ -1,14 +1,14 @@
 import React from 'react';
 import './style.css';
 
-const emojis = ["/src/assets/bootstrap.png", 
-                "/src/assets/css3.png", 
-                "/src/assets/git.png", 
-                "/src/assets/github.png", 
-                "/src/assets/html.png", 
-                "/src/assets/react.png", 
-                "/src/assets/javascript.png", 
-                "/src/assets/vscode.png"];
+const emojis = ["/assets/bootstrap.png", 
+                "/assets/css3.png", 
+                "/assets/git.png", 
+                "/assets/github.png", 
+                "/assets/html.png", 
+                "/assets/react.png", 
+                "/assets/javascript.png", 
+                "/assets/vscode.png"];
 
                 const generateRandomPosition = () => {
                     const windowWidth = window.innerWidth;

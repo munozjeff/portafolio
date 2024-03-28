@@ -11,14 +11,14 @@ function Contact() {
             <div className='contact'>
                 <a href="https://www.linkedin.com/in/jefferson-muñoz-dev">
                     <figure>
-                        <img src="/src/assets/linked-in.png" alt="" />
+                        <img src="/assets/linked-in.png" alt="" />
                     </figure>
                 </a>
-                <Link>
+                <a href='https://t.me/ste046'>
                     <figure>
-                        <img src="/src/assets/telegram.png" alt="" />
+                        <img src="/assets/telegram.png" alt="" />
                     </figure>
-                </Link>
+                </a>
             </div>
         </>
     )
